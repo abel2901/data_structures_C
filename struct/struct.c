@@ -1,7 +1,7 @@
 #include <conio.h>
 #include <stdio.h>
 
-/*Using struct we can define a new data type */
+/*An example using struct. we can use struct to define a new data type in C*/
 
 struct Aluno
 {
