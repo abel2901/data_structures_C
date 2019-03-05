@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1551543101 source:c:\users\user\documents\estrutura de dados\data_structures_c\tad\conta\contabancaria.c
+	<conio.h>
+	"ContaBancaria.h"
+
+1551539728 c:\users\user\documents\estrutura de dados\data_structures_c\tad\conta\contabancaria.h
+
+1551539167 source:c:\users\user\documents\estrutura de dados\data_structures_c\tad\conta\main.c
+	<stdlib.h>
+	<stdio.h>
+	"ContaBancaria.h"
+
