@@ -1,6 +1,6 @@
-/* Implemente um TAD ContaBancaria, com os campos número e saldo onde os clientes
-podem fazer as seguintes operações:
-- Iniciar uma conta com um número e saldo inicial
+/* Implemente um TAD ContaBancaria, com os campos nï¿½mero e saldo onde os clientes
+podem fazer as seguintes operaï¿½ï¿½es:
+- Iniciar uma conta com um nï¿½mero e saldo inicial
 - Depositar um valor
 - Sacar um valor
 - Imprimir o saldo */
@@ -12,7 +12,7 @@ podem fazer as seguintes operações:
 int main()
 {
     ContaBancaria conta1;
-    inicializa(conta1,180, 1000.2);
+    inicializa(&conta1,180, 1000.2);
     imprime(conta1);
     return 0;
 }

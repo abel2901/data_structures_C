@@ -1,10 +1,10 @@
 #include <conio.h>
 #include "ContaBancaria.h"
 
-void inicializa(ContaBancaria conta, int numero, double saldo)
+void inicializa(ContaBancaria *conta, int numero, double saldo)
 {
-    conta.numero = numero;
-    conta.saldo = saldo;
+    conta->numero = numero;
+    conta->saldo = saldo;
 }
 
 void deposito(ContaBancaria conta, double valor)
