@@ -4,7 +4,7 @@ typedef struct
     double saldo;
 }ContaBancaria;
 
-void inicializa(ContaBancaria, int, double);
+void inicializa(ContaBancaria *conta, int, double);
 
 void deposito(ContaBancaria, double);
 
