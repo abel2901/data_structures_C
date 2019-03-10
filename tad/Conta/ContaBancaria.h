@@ -6,8 +6,8 @@ typedef struct
 
 void inicializa(ContaBancaria *conta, int, double);
 
-void deposito(ContaBancaria, double);
+void deposito(ContaBancaria *conta, double);
 
-void saque(ContaBancaria, double);
+void saque(ContaBancaria *conta, double);
 
 void imprime(ContaBancaria);

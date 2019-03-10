@@ -7,14 +7,14 @@ void inicializa(ContaBancaria *conta, int numero, double saldo)
     conta->saldo = saldo;
 }
 
-void deposito(ContaBancaria conta, double valor)
+void deposito(ContaBancaria *conta, double valor)
 {
-    conta.saldo += valor;
+    conta->saldo += valor;
 }
 
-void saque(ContaBancaria conta, double valor)
+void saque(ContaBancaria *conta, double valor)
 {
-    conta.saldo -= valor;
+    conta->saldo -= valor;
 }
 
 void imprime(ContaBancaria conta)

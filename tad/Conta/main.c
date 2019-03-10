@@ -12,7 +12,9 @@ podem fazer as seguintes opera��es:
 int main()
 {
     ContaBancaria conta1;
-    inicializa(&conta1,180, 1000.2);
+    inicializa(&conta1,180, 10);
+    deposito(&conta1, 100);
+    saque(&conta1, 2.0);
     imprime(conta1);
     return 0;
 }
