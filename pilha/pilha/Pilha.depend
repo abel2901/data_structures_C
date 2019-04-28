@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1556417924 source:c:\users\user\documents\estrutura de dados\data_structures_c\pilha\pilha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_header.h"
+
+1556417759 c:\users\user\documents\estrutura de dados\data_structures_c\pilha\pilha\pilha_header.h
+
